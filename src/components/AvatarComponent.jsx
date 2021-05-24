@@ -63,7 +63,7 @@ const AvatarComponent = props => {
             })}
             {contactImages.map((contact, index) => {
                 return <div className="k-hbox" key={index}>
-                    <Avatar shape='circle' type='image'><img src={contact.avatar} /></Avatar>
+                    <Avatar shape='circle' type='image'><img src={contact.avatar} alt="alt"/></Avatar>
                     <div style={dir === "rtl" ? {
                         marginRight: 10
                     } : {

@@ -13,7 +13,7 @@ const RestaurantMenu = ( props ) => {
             const newCarList = [...carList];
             console.log(newCarList)
             newCarList.map((item, index) => {
-                if (item==name) {
+                if (item === name) {
                     delete newCarList[index]
                     setCarList(newCarList);
                 }

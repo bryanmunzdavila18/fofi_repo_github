@@ -14,7 +14,7 @@ const Login = (props) => {
             props.setUserSession(user)
         }
         }>
-            <img src={LogoFofi}/>
+            <img src={LogoFofi} alt="alt"/>
             <h3>Log in</h3>
 
             <div className="form-group">
@@ -35,7 +35,7 @@ const Login = (props) => {
                     type="password"
                     className="form-control"
                     placeholder="Enter password"
-                    onClick={(password)=>setUser({...user,
+                    onChange={(password)=>setUser({...user,
                         password: password.target.value,
                     })}
                 />
@@ -49,9 +49,7 @@ const Login = (props) => {
             </div>
 
             <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
-            <p className="forgot-password text-right">
-                Forgot <a href="#">password?</a>
-            </p>
+
         </form>
     </React.Fragment>
 };

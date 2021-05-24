@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './../assets/stylesheets/CardComponent.scss'
 import { Button } from "@progress/kendo-react-buttons";
 import { Card, CardHeader, CardBody, CardTitle, CardImage, CardActions } from '@progress/kendo-react-layout';
@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const CardComponent = props => {
 
-    const { dir, logo, title, description, body, onClickCard, spanText, classButton } = props;
+    const { dir, logo, title, body, onClickCard, spanText, classButton } = props;
     return <React.Fragment>
         <Card dir={dir} className="card_container">
             <CardImage src={logo} />

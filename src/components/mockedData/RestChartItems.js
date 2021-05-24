@@ -44,18 +44,3 @@ export const mcdonalds = {
     },]
 };
 
-
-const pieData = [{
-    name: "India",
-    share: 0.24
-}, {
-    name: "Russian Federation",
-    share: 0.26,
-    explode: true
-}, {
-    name: "Germany",
-    share: 0.1
-}, {
-    name: "World",
-    share: 0.4
-}];

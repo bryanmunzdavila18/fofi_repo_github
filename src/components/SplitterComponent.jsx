@@ -7,10 +7,6 @@ import CardList from './../assets/Lists/CardList'
 import MenuModal from './MenuModal';
 import RestaurantMenu from './../views/RestaurantMenu';
 
-const InitialStateSelectedRest = {
-  name: '',
-};
-
 const SplitterComponent = () => {
     const [panes, setPanes] = React.useState([{
         size: '70%',
