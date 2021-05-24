@@ -5,11 +5,11 @@ const CardList = [
     {
         logo: ValentisLogo,
         name: "Valentis Pizza",
-        bio: "Pizzeria"
+        bio: "Pizza shop"
     }, {
         logo: McDonaldsLogo,
         name: "McDonald's",
-        bio: "Taqueria"
+        bio: "Fast Food"
     },
 ];
 

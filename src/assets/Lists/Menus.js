@@ -10,30 +10,30 @@ const Menu = {
     valentis: [
         {
             picture: ValentisHawaiiana,
-            name: 'Pizza Hawaiiana',
+            name: 'Hawaiian Pizza',
             price: 5.00,
         }, {
             picture: ValentisPepperoniHongos,
-            name: 'Pizza Pepperoni con Hongos',
+            name: 'Pepperoni Pizza with Mushrooms',
             price: 6.00,
         }, {
             picture: ValentisTocineta,
-            name: 'Pizza con tocineta',
+            name: 'Bacon Pizza',
             price: 4.50,
         },
     ],
     mcdonalds: [
         {
             picture: McDonaldsBicMac,
-            name: 'Un clásico para disfrutar. Pan con semillas de ajonjolí, dos tortas de carne 100% de res, lechuga, queso, pepinillos, cebolla y aderezo Big Mac.',
+            name: 'Big Mac',
             price: 4.80,
         }, {
             picture: McDonaldsQuesoDoble,
-            name: 'Hamburguesa elaborada con dos tortas de carne 100% de res, mostaza, ketchup, cebolla, pepinillos y queso.',
+            name: 'Cheese Burger Double.',
             price: 4.00,
         }, {
             picture: McDonaldsRes,
-            name: 'Pan con ajonjolí, una torta de carne 100% de res, mayonesa, ketchup, cebolla, lechuga, tomate y queso.',
+            name: 'Beef Burger',
             price: 4.35,
         },
     ],

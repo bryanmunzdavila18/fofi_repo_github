@@ -41,7 +41,7 @@ const SplitterComponent = () => {
             <CardComponent logo={card.logo} title={card.name} body={card.bio} onClickCard={onSelectRest} classButton={false} spanText="Menu"/>
         </li>
     })
-    
+
     const onHideModal = () => {
         setShowModal(false);
         setShowChat(true);
