@@ -1,0 +1,34 @@
+{
+  "Users": [
+    {
+      "name": "Valentis Pizza",
+      "username": "valenpizza",
+      "isAdmin": true
+    },
+    {
+      "name": "McDonalds",
+      "username": "mddonalds",
+      "isAdmin": true
+    },
+    {
+      "name": "Reynerio Jose Davila Silva",
+      "username": "reyneriod",
+      "isAdmin": false
+    },
+    {
+      "name": "Maria Alejandra Castillo Peraltes",
+      "username": "mariacastillo",
+      "isAdmin": false
+    },
+    {
+      "name": "Francisco Antonio Molina Medrano",
+      "username": "franmolina",
+      "isAdmin": true
+    },
+    {
+      "name": "Juan Rafael Espinoza Chaves",
+      "username": "juanchaves",
+      "isAdmin": true
+    }
+  ]
+}
