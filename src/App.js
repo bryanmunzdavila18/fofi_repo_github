@@ -86,7 +86,7 @@ const App = () => {
                             :
                             <React.Fragment>
                                 <Route exact={true} path="/" component={AvatarComponent} />
-                                <Route exact={true} path="/bottomnavigation" component={BottomNavigationComponent} />
+                                <Route exact={true} path="/splitter" component={SplitterComponent} />
                                 {/*<Route exact={true} path="/card" component={CardComponent} />*/}
                                 {/*<Route exact={true} path="/menu" component={MenuComponent} />*/}
                                 {/*<Route exact={true} path="/panelbar" component={PanelBarComponent} />*/}

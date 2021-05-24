@@ -29,7 +29,7 @@ const Menu = {
             price: 4.80,
         }, {
             picture: McDonaldsQuesoDoble,
-            name: 'Cheese Burger Double.',
+            name: 'Cheese Burger Double',
             price: 4.00,
         }, {
             picture: McDonaldsRes,
